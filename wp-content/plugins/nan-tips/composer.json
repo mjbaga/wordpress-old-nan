@@ -1,0 +1,26 @@
+{
+    "name": "mjbaga/notanoobie-plugin-tips",
+    "description": "WordPress Plugin for notAnoobie Tips",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "tommcfarlin/page-template-example",
+                "version": "1.0.0",
+                "source":{
+                    "url": "https://github.com/tommcfarlin/page-template-example.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "tommcfarlin/page-template-example": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NaNTips\\": "classes/NaNTips"
+        }
+    }
+}

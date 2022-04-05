@@ -1,0 +1,12 @@
+{
+	"name": "mjbaga/notanoobie-theme-classes",
+	"description": "Autoloader for notAnoobie Theme Classes",
+	"require": {
+		"nesbot/carbon": "1.22.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"NaNThemeComponents\\": "classes/NaNThemeComponents/"
+		}
+	}
+}

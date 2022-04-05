@@ -1,0 +1,21 @@
+{
+  "name": "mjbaga/notanoobie-plugin-search",
+  "repositories": [
+  {
+    "type": "package",
+    "package": {
+      "name": "tommcfarlin/page-template-example",
+      "version": "1.0.0",
+      "source":{
+        "url": "https://github.com/tommcfarlin/page-template-example.git",
+        "type": "git",
+        "reference": "master"
+      }
+    }
+  }
+  ],
+  "require": {
+      "gamajo/template-loader": "1.2.0",
+      "tommcfarlin/page-template-example": "1.0.0"
+  }
+}

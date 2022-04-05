@@ -1,0 +1,1 @@
+<meta name="description" content="<?php print $data['description']; ?>">

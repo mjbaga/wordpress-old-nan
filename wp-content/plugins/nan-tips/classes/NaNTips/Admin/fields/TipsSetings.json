@@ -1,0 +1,41 @@
+[
+    {
+        "key": "group_5a8290ac73970",
+        "title": "Tips Settings",
+        "fields": [
+            {
+                "key": "field_5a8290b41cd80",
+                "label": "Push Notification Frequency",
+                "name": "push_notification_frequency",
+                "type": "time_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "g:i a",
+                "return_format": "H:i:s"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "nan-tips-setting-admin"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]

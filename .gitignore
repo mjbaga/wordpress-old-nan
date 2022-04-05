@@ -1,0 +1,37 @@
+# Netbeans metadata
+/nbproject
+
+# Wordpress Core
+/nan-core
+
+# Third Party Plugins
+/wp-content/plugins/advanced-custom-fields-pro
+/wp-content/plugins/tinymce-advanced
+/wp-content/plugins/query-monitor
+
+# Third Party Themes
+/wp-content/themes/twentyseventeen
+/wp-content/themes/index.php
+
+# Front End Assets
+assets
+
+# Content
+/wp-content/uploads
+
+# Upgrade
+/wp-content/upgrade
+
+# db.php
+/wp-content/db.php
+
+# Config file
+wp-config.php
+
+#Composer vendor files
+vendor
+
+# Other root files
+robots.txt
+composer.lock
+.htaccess
